@@ -1,6 +1,6 @@
 @font-face {
     font-family: Segoe;
-    src: url(/fonts/SegoeWPLight.ttf);
+    src: url(../fonts/SegoeWPLight.ttf);
 }
 
 body {
@@ -28,18 +28,3 @@ footer{
     display: flex;
     justify-content: center;
 }
-
-
-/*
-.topMenu{
-    display: flex;
-    flex-direction: row;
-}
-.elements{
-    display: flex;
-    flex-direction: row;
-}
-.product{
-    display: flex;
-    flex-direction: row;
-}*/
