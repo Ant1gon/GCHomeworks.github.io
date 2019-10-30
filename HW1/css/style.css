@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Segoe;
+    src: url(/fonts/SegoeWPLight.ttf);
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    width: 600px;
+    height: 900px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    z-index: 1;
+}
+ul{
+    list-style: none;
+}
+header,.topMenu,.elements,.product{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+header,.topMenu,.elements{
+    Justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+.topMenu{
+    display: flex;
+    flex-direction: row;
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+}*/
