@@ -2,7 +2,6 @@
     font-family: Segoe;
     src: url(../fonts/SegoeWPLight.ttf);
 }
-
 body {
     background-image: url(../img/background.jpg);
     width: 600px;
@@ -24,8 +23,13 @@ header,.topMenu,.elements,.product{
 header,.topMenu,.elements{
     Justify-content: space-between;
 }
+.product{
+    font-family: Segoe;
+}
 
 footer{
     display: flex;
     justify-content: center;
 }
+
+/*ctrl+alt_j > emmet >*/
