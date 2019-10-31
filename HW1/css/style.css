@@ -20,6 +20,9 @@ ul{
     list-style: none;
     margin: 0;
 }
+li{
+    padding-right: 10px;
+}
 
 a {
     text-decoration: none;
