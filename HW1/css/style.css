@@ -15,7 +15,7 @@ body {
 ul{
     list-style: none;
 }
-header,.topMenu,.elements,.product{
+header,.elements,.product{
     display: flex;
     flex-flow: row wrap;
     flex: 1;
