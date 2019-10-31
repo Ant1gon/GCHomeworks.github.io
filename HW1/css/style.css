@@ -6,22 +6,31 @@ body {
     background-image: url(../img/background.jpg);
     width: 600px;
     height: 900px;
-    padding-left: 10%;
-    padding-right: 10%;
     position: absolute;
-    z-index: 1;
+    padding: 0 10%;
+    display: flex;
+    flex-flow: column;
 }
 
+header{
+    display: flex;
+    Justify-content:space-around;
+}
 ul{
     list-style: none;
+    margin: 0;
 }
-header,.elements,.product{
-    display: flex;
-    flex-flow: row wrap;
-    flex: 1;
+
+a {
+    text-decoration: none;
 }
-header,.topMenu,.elements{
-    Justify-content: space-between;
+.navbar,.elements,.product{
+     display: flex;
+     flex-flow: row wrap;
+     flex: 1;
+}
+.navbar,.elements{
+    Justify-content:space-around;
 }
 .product{
     font-family: Segoe;
