@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: silver;
+    padding: 20px;
+}
+body:hover main{
+    display: block;
+}
+
+main{
+    display: none;
+}
+
+div{
+    display: inline-block;
+    /*border: 1px solid black;*/
+    width: 500px;
+    height: 500px;
+    background: black;
+    position: relative;
+    transition: z-index 2.5s;
+}
+ul{
+    margin: 100px;
+    overflow: hidden;
+}
+
+li>div:hover{
+    z-index: 1;
+}
+li>div:hover hr{
+    display: block;
+}
+
+
+.red{
+    background: red;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.green{
+    background: lightgreen;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+.blue{
+    background: blue;
+    position: relative;
+    top: -70px;
+    left: 120px;
+}
+.yellow{
+    background: yellow;
+    position:relative;
+    top: -20px;
+    left: 30px;
+}
+.round{
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    background: gray;
+    border-radius: 50%;
+    position: absolute;
+    left: 280px;
+    top: 280px;
+}
+
+hr{
+    display: none;
+    justify-content: space-between;
+    position:relative;
+    top: 90px;
+    left: 30px;
+    border: none;
+    color: black;
+    background-color: black;
+    height: 12px;
+    width: 70%;
+}
+
+hr.vertical{
+    transform: rotate(90deg);
+    top: 85px;
+}
