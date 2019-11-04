@@ -6,26 +6,33 @@ body {
     background: silver;
     padding: 20px;
 }
-body:hover main{
+
+main{
     display: block;
 }
 
-main{
-    display: none;
-}
-
-div{
+li>div{
     display: inline-block;
     /*border: 1px solid black;*/
     width: 500px;
     height: 500px;
     background: black;
     position: relative;
-    transition: z-index 2.5s;
 }
 ul{
     margin: 100px;
     overflow: hidden;
+}
+
+div.round:hover div.transform{
+    transform: rotate(360deg);
+}
+
+div.transform{
+    height: 200px;
+    border-radius: 50%;
+    transform-origin: 50% 50% 0;
+    transition: transform  3s ease;
 }
 
 li>div:hover{
@@ -34,8 +41,6 @@ li>div:hover{
 li>div:hover hr{
     display: block;
 }
-
-
 .red{
     background: red;
     position: relative;
