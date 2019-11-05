@@ -4,7 +4,7 @@
 }
 body {
     background: silver;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 main{
@@ -20,7 +20,6 @@ li>div{
     position: relative;
 }
 ul{
-    margin: 100px;
     overflow: hidden;
 }
 
