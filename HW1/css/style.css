@@ -26,11 +26,6 @@ header{
     display: flex;
     Justify-content:space-around;
 }
-main{
-    width: 100%;
-    max-width: 900px;
-    min-width: 430px;
-}
 
 
 ul{
@@ -48,6 +43,18 @@ a {
 a:hover{
     border-bottom: 1px;
     border-bottom-color: blue;
+}
+
+main{
+    width: 100%;
+    max-width: 900px;
+    min-width: 430px;
+}
+
+.baner{
+    background:white url(../img/baner/background.png);
+    flex-basis: 100%;
+    height: auto;
 }
 
 .navbar,.elements,.product{
