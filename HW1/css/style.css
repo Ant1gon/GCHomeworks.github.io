@@ -2,76 +2,75 @@
     font-family: Segoe;
     src: url(../fonts/SegoeWPLight.ttf);
 }
-html{
-    background: white;
-    min-height:  100%;
-    display: flex;
-    flex-direction: column;
-}
 body {
     margin: 0;
-    padding: 0 15px;
-    width: 900px;
-    height: 900px;
+    padding: 5% 30%;
+    background: white;
     position: absolute;
     display: flex;
     flex-flow: column;
-    flex: auto;
+    justify-content: center;
 }
-
 header{
     width: 100%;
-    max-width: 900px;
-    min-width: 400px;
+    min-width: 50%;
     display: flex;
     Justify-content:space-around;
+    padding-bottom: 10px;
 }
-
-
-ul{
-    list-style: none;
-    margin: 0;
-}
-li{
-    padding-right: 10px;
-}
-
-a {
-    text-decoration: none;
-    border: 5px;
-}
-a:hover{
-    border-bottom: 1px;
-    border-bottom-color: blue;
-}
-
 main{
     width: 100%;
-    max-width: 900px;
-    min-width: 430px;
+    min-width: 50%;
 }
-
+footer{
+    width: 100%;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+ul {
+     list-style: none;
+     margin: 0 auto;
+ }
+a {
+    align-self: center;
+    display: block;
+    text-decoration: none;
+}
+.navbar ul{
+display: -webkit-flex;
+display: flex;
+flex-flow: row wrap;
+/*background: #FFD7A7;*/
+padding-left: 0;
+}
+.navbar a {
+padding: 1em;
+display: block;
+}
+.navbar a:hover {
+    border-bottom: 1px solid blue;
+}
 .baner{
-    background:white url(../img/baner/background.png);
+    width: 100%;
+    background:white url(../img/baner/background.png) center no-repeat;
     flex-basis: 100%;
-    height: auto;
+    height: 100px;
 }
-
 .navbar,.elements,.product{
      display: flex;
      flex-flow: row wrap;
      flex: 1;
 }
-.navbar,.elements{
-    Justify-content:space-around;
+.elements, .navbar{
+    Justify-content: space-between;
 }
 .product{
     font-family: Segoe;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
+.header>.logo{
+    background-image: url(../img/);
 }
 
 /*ctrl+alt_j > emmet >*/
