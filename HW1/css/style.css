@@ -15,6 +15,7 @@ body {
 header{
     display: flex;
     Justify-content: space-between;
+    align-items: flex-end;
     /*padding-bottom: 10px;*/
 }
 header,main,footer{
@@ -34,6 +35,9 @@ a {
     display: block;
     text-decoration: none;
 }
+h2{
+    margin: 0;
+}
 .navbar ul{
     display: -webkit-flex;
     display: flex;
@@ -46,41 +50,139 @@ a {
     display: block;
 }
 .navbar a:hover {
-    border-bottom: 1px solid blue;
+    border-bottom: 2px solid blue;
 }
 .baner{
     width: 100%;
     background:white url(../img/baner/background.png) center ;
     height: 50vh;
-    margin: 1vh 0;
-/*    */
+    margin: 0 0 1vh 0;
+    /*padding: 10px 20px;*/
     display: flex;
-    justify-content: center;
-    /*align-content: space-between;*/
+    justify-content: space-around;
+    align-items: center;
 }
 .baner_Arrow-Left{
+    height: 80px;
     content: url(../img/baner/toLeftArrow.png);
 }
 .baner_Arrow-Right{
+    height: 80px;
     content: url(../img/baner/toRightArrow.png);
+}
+.baner_Arrow-Left:hover, .baner_Arrow-Right:hover{
+    transform: scale(1.2);
 }
 .baner_product{
     transform: scale(0.8);
     height: 100%;
     content: url(../img/baner/iphone.png);
+    /*transition: all 3s;*/
 }
-
-
-
+/**/
+.baner_product:hover {
+    /*-webkit-animation: 0.1s tremor ease-out infinite;*/
+    animation: 0.1s tremor /*ease-out*/ infinite;
+}
+@-webkit-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        top:-1px;
+        -webkit-transform: translateX(-1px);
+        transform: translateX(-1px);
+    }
+    50%, 100% {
+        left: 1px;
+        top: 1px;
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+}
+/*@-moz-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-2%);
+        transform: translateX(-2%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(2%);
+        transform: translateX(2%);
+    }
+}
+@-ms-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-2%);
+        transform: translateX(-2%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(2%);
+        transform: translateX(2%);
+    }
+}
+@-o-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-2%);
+        transform: translateX(-2%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(2%);
+        transform: translateX(2%);
+    }
+}
+@keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-2%);
+        transform: translateX(-2%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(2%);
+        transform: translateX(2%);
+    }
+}*/
+/**/
+.baner_info{
+    display: flex;
+    flex-basis: auto;
+    flex-flow: column;
+}
+.baner>.baner_info>article{
+    width: 60%;
+    padding: 10px 0;
+}
+.baner_info-button{
+    width: 50%;
+    padding: 5px;
+    border: none;
+    /*background-image: url(../img/baner/button.png);*/
+    background: #5094f2;
+    display: flex;
+    align-items: center;
+}
+.baner_info-button:hover{
+    background: #a0c5f8;
+}
+.baner_info-button_logo{
+    content: url(../img/baner/buttonLogo.png);
+}
 .elements{
      display: flex;
      flex-flow: row wrap;
-     flex: 1;
-     flex-basis: 100%;
+     flex: 1 1 100%;
+     /*flex-basis: 100%;*/
      Justify-content: space-between;
 }
 .elemOne,.elemTwo,.elemThree{
     flex: 1 1 20%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 .navbar{
     display: flex;
@@ -99,6 +201,7 @@ a {
     flex: 1 1 20%;
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
 }
 .product_Text-Block{
     flex: 1 1 20%;
@@ -106,20 +209,38 @@ a {
 
 .logoDiv{
     display: flex;
-    align-items: center;
-
+    align-items: flex-end;
 }
 .logo{
     content: url(../img/header/logo.png);
 }
-.elemOne_Img{
+.logo_Text{
+    font-size: 40px;
+}
+.elemOne_Img-Background{
     background: white url(../img/elem1/Img_background.png) center no-repeat;
 }
-.elemTwo_Img{
+.elemTwo_Img-Background{
     background: white url(../img/elem2/Img_background.png) center no-repeat;
 }
-.elemThree_Img{
+.elemThree_Img-Background{
     background: white url(../img/elem3/Img_background.png) center no-repeat;
+}
+.elemOne_Img-Background,.elemTwo_Img-Background, .elemThree_Img-Background{
+    width: 186px;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elemOne_Img{
+    content: url(../img/elem1/img_logo.png);
+}
+.elemTwo_Img{
+    content: url(../img/elem2/img_logo.png);
+}
+.elemThree_Img{
+    content: url(../img/elem3/img_logo.png);
 }
 .product_Img{
     background: white url(../img/product/cart.png) center no-repeat;
@@ -128,19 +249,3 @@ a {
     transform: scale(0.6);
 }
 
-.elemOne_Img,.elemTwo_Img, .elemThree_Img{
-    width: 186px;
-    height: 186px;
-}
-/*.elemOne_Img{*/
-/*    content: url(../img/elem1/img_background.png);*/
-/*}*/
-/*.elemTwo_Img{*/
-/*    content: url(../img/elem2/img_background.png);*/
-/*}*/
-/*.elemThree_Img{*/
-/*    content: url(../img/elem3/Img_background.png);*/
-/*}*/
-
-
-/*ctrl+alt_j > emmet >*/
