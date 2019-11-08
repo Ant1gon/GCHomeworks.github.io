@@ -2,8 +2,16 @@
     font-family: Segoe;
     src: url(../fonts/SegoeWPLight.ttf);
 }
+/*@media all and (width: 720px) {
+    body{
+        background-color: #d94748;
+    }
+}*/
+
 body {
     width: 60vw;
+    max-width: 1260px;
+    /*min-width: 500px;*/
     margin: 0;
     padding: 3vh 20vw;
     background: white;
@@ -66,6 +74,8 @@ h2{
 }
 .baner{
     width: 100%;
+    max-width: 1260px;
+    min-width: 500px;
     background:white url(../img/baner/background.png) center ;
     height: 50%;
     margin: 0 0 5vh 0;
@@ -92,11 +102,11 @@ h2{
     transition: all 1s;
 }
 .baner_product:hover {
-    -o-transform: skew(-20deg, 20deg);
-    -ms-transform: skew(-20deg, 20deg);
-    -moz-transform: skew(-20deg, 20deg);
-    -webkit-transform: skew(-20deg, 20deg);
-    transform: skew(-30deg, 30deg);
+    -o-transform: skew(-30deg, 30deg) scale(0.6);
+    -ms-transform: skew(-30deg, 30deg) scale(0.6);
+    -moz-transform: skew(-30deg, 30deg) scale(0.6);
+    -webkit-transform: skew(-30deg, 30deg) scale(0.6);
+    transform: skew(-30deg, 30deg) scale(0.6);
 }
 .baner_info{
     display: flex;
@@ -120,6 +130,7 @@ h2{
 }
 .baner_info-button_logo{
     content: url(../img/baner/buttonLogo.png);
+    padding-right: 5px;
 }
 .elements{
      display: flex;
@@ -170,6 +181,7 @@ h2{
 }
 .logo_Text{
     font-size: 40px;
+    margin: 0;
 }
 .elemOne_Img-Background{
     background-color: #5094f2 ;/*url(../img/elem1/Img_background.png) center no-repeat;*/
