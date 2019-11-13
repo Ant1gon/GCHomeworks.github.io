@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');*/
 
 *{
     margin: 0;
@@ -6,7 +6,202 @@
 }
 body {
     background: #efefef;
+    height: 100vh;
     padding: 0 20px;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+}
+a{
+    display: block;
+}
+ul{
+    list-style: square;
+}
+.product{
+    width: 465px;
+    height: 610px;
+    background: #37b0ae;
+    /*flex-basis: 50%;*/
+}
+.info{
+    width: 540px;
+    height: 700px;
+    background: #ffffff;
+    /*padding: 80px 10px 5% 80px;*/
+    /*flex-basis: 50%;*/
+}
+.info__wrapper{
+    height: 100%;
+    margin: 80px 10px 5% 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+
+.info__cardTitle>h1 {
+    font-size: 34px;
+    font-family: "Montserrat";
+    color: rgb(58, 77, 92);
+    line-height: 1.2;
+    position: absolute;
+    left: 838.937px;
+    top: 320.6px;
+    z-index: 46;
+}
+.info__cardTitle>h2{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(58, 77, 92);
+    text-transform: uppercase;
+    line-height: 1.2;
+    position: absolute;
+    left: 840.937px;
+    top: 369.4px;
+    z-index: 47;
+}
+.features {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 1200px;
+    z-index: 44;
+}
+.Features {
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: rgb(124, 141, 156);
+    text-transform: uppercase;
+    line-height: 1.2;
+    position: absolute;
+    left: 840.938px;
+    top: 434.7px;
+    z-index: 43;
+}
+.squares {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 1200px;
+    z-index: 42;
+}
+.square {
+    background-color: rgb(55, 176, 174);
+    position: absolute;
+    left: 842px;
+    top: 582px;
+    width: 5px;
+    height: 5px;
+    z-index: 41;
+}
+.square {
+    background-color: rgb(55, 176, 174);
+    position: absolute;
+    left: 842px;
+    top: 554px;
+    width: 5px;
+    height: 5px;
+    z-index: 40;
+}
+.square {
+    background-color: rgb(55, 176, 174);
+    position: absolute;
+    left: 842px;
+    top: 526px;
+    width: 5px;
+    height: 5px;
+    z-index: 39;
+}
+.square {
+    background-color: rgb(55, 176, 174);
+    position: absolute;
+    left: 842px;
+    top: 498px;
+    width: 5px;
+    height: 5px;
+    z-index: 38;
+}
+.square {
+    background-color: rgb(55, 176, 174);
+    position: absolute;
+    left: 842px;
+    top: 470px;
+    width: 5px;
+    height: 5px;
+    z-index: 37;
+}
+.info__features {
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: rgb(124, 141, 156);
+    line-height: 2.154;
+
+}
+
+.info__wrapper_span{
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: rgb(124, 141, 156);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.info__wrapper_quantity{
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: rgb(124, 141, 156);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.info__price{
+
+}
+
+.product__thumbnail{
+    /*width: 100px;*/
+    height: 320px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    /*border: 2px solid black;*/
+    position: absolute;
+}
+.product__logo{
+    margin: 25px;
+    height: 18px;
+    background: url(../img/FujifilmLogo.png) left no-repeat;
+}
+
+.product__img__cameraImg{
+    width: 465px;
+    height: 450px;
+    background: url(../img/camera.png) center no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+.product__img__cameraShadow{
+    width: 465px;
+    height: 450px;
+    background: url(../img/camera-shadow.png) no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+.product__thumbnail__top,.product__thumbnail__back,.product__thumbnail__top2{
+    width: 100px;
+    height: 100px;
+    background: rgba(255,255,255,0.5);
+}
