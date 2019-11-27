@@ -1,10 +1,11 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 
-div{
-  flex-direction: row-reverse;
-  justify-content: start;
-  flex;
+body{
+  background-color: white;
+  padding: 0 20vw;
 }
+

@@ -1,0 +1,40 @@
+.header {
+  max-width: 900px;
+  height: 750px;
+  background: #ffffff url(../img/header/ColorFill.png) no-repeat;
+  background-size: cover; }
+  .header_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .header_title .logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .header_title .menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+      .header_title .menu ul {
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 40%;
+            flex-basis: 40%;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: end; }
+        .header_title .menu ul li {
+          margin: 0 10px; }
+      .header_title .menu a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+
+/*# sourceMappingURL=header_style.css.map */
