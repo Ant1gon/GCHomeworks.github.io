@@ -1,0 +1,46 @@
+.counts{
+  display: flex;
+  >div{
+    width: 400px;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div:first-child{
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    }
+    .info{
+      width: 130px;
+      font-size: 20px;
+    }
+  }
+  .business{
+    background-color: rgb(128, 216, 255);
+    div.img{
+      background: white url("../img/main_counts/business.png") center no-repeat;
+    }
+  }
+  .downloads{
+    background-color: rgb(130, 177, 255);
+    div.img{
+      background: white url("../img/main_counts/file_download.png") center no-repeat;
+    }
+  }
+  .freeInstalls{
+    background-color: rgb(179, 136, 255);
+    div.img{
+      background: white url("../img/main_counts/person.png") center no-repeat;
+    }
+  }
+  .proUser{
+    background-color: rgb(234, 128, 252);
+    div.img{
+      background: white url("../img/main_counts/file_download.png") center no-repeat;
+    }
+  }
+
+}
