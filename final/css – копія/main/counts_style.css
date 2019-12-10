@@ -1,0 +1,43 @@
+.counts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .counts > div {
+    width: 400px;
+    height: 150px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .counts > div div:first-child {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin-right: 10px; }
+    .counts > div .info {
+      width: 130px;
+      font-size: 20px; }
+  .counts .business {
+    background-color: #80d8ff; }
+    .counts .business div.img {
+      background: white url("../../img/main_counts/business.png") center no-repeat; }
+  .counts .downloads {
+    background-color: #82b1ff; }
+    .counts .downloads div.img {
+      background: white url("../../img/main_counts/file_download.png") center no-repeat; }
+  .counts .freeInstalls {
+    background-color: #b388ff; }
+    .counts .freeInstalls div.img {
+      background: white url("../../img/main_counts/person.png") center no-repeat; }
+  .counts .proUser {
+    background-color: #ea80fc; }
+    .counts .proUser div.img {
+      background: white url("../../img/main_counts/file_download.png") center no-repeat; }
+
+/*# sourceMappingURL=main__counts_style.css.map */

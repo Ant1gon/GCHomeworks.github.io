@@ -1,0 +1,47 @@
+.services {
+  margin: 0 auto;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .services_title {
+    text-align: center;
+    padding: 90px;
+    line-height: 1.667; }
+  .services_infoBlocks > div {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1); }
+  .services_infoBlocks .title {
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .services .title > img {
+    width: 20px;
+    height: 20px; }
+
+.statistics_title_img {
+  content: url("../../img/services/statistics.png"); }
+
+.inbox_title_img {
+  content: url("../../img/services/mail.png"); }
+
+.team_title_img {
+  content: url("../../img/services/team.png"); }
+
+.settings_title_img {
+  content: url("../../img/services/settings.png"); }
+
+.feed_title_img {
+  content: url("../../img/services/rss_feed.png"); }
+
+/*# sourceMappingURL=services_style.css.map */

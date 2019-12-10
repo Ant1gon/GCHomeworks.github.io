@@ -64,11 +64,11 @@
         color: #b0bec5;
         text-align: center; }
     .easy_blocks .item1 img {
-      content: url("../img/main_easy/note.png"); }
+      content: url("../../img/main_easy/note.png"); }
     .easy_blocks .item2 img {
-      content: url("../img/main_easy/man.png"); }
+      content: url("../../img/main_easy/man.png"); }
     .easy_blocks .item3 img {
-      content: url("../img/main_easy/worker.png"); }
+      content: url("../../img/main_easy/worker.png"); }
   .easy_buttons {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -5,35 +5,20 @@
   background: #ffffff url(../img/header/ColorFill.png) center/cover no-repeat;
   color: white; }
   .header_title {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .header_title .logo {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; }
       .header_title .logo_logoText {
         text-transform: uppercase; }
     .header_title .menu {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: end;
-          -ms-flex-align: end;
-              align-items: flex-end; }
+      align-items: flex-end; }
       .header_title .menu ul {
         list-style: none;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-preferred-size: 40%;
-            flex-basis: 40%;
-        -webkit-box-align: end;
-            -ms-flex-align: end;
-                align-items: end; }
+        flex-basis: 40%;
+        align-items: end; }
         .header_title .menu ul li {
           margin-right: 30px; }
         .header_title .menu ul a {
@@ -51,23 +36,13 @@
       border-radius: 2px;
       background: none; }
   .header_elements {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
     .header_elements .info {
-      -ms-flex-preferred-size: 600px;
-          flex-basis: 600px;
+      flex-basis: 600px;
       height: 350px;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
+      flex-direction: column;
+      justify-content: center; }
       .header_elements .info span {
         font-size: 18px;
         font-family: "Raleway";
@@ -83,8 +58,7 @@
         background: white;
         border-radius: 5px;
         border: none;
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         font-size: 16px;
         font-weight: bold;
         text-transform: uppercase; }
@@ -97,7 +71,6 @@
         background: black;
         color: white; }
       .header_elements .info .video {
-        -ms-flex-preferred-size: 600px;
-            flex-basis: 600px; }
+        flex-basis: 600px; }
 
 /*# sourceMappingURL=header_style.css.map */

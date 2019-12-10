@@ -9,6 +9,8 @@
     justify-content: space-between;
     .logo{
       display: flex;
+      text-decoration: none;
+      color: white;
       &_logoImg{}
       &_logoText{
         text-transform: uppercase;

@@ -1,0 +1,91 @@
+.easy {
+  padding: 50px 80px;
+  height: 800px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .easy_title {
+    margin: 0 auto;
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .easy_title h2 {
+      font-size: 32px; }
+    .easy_title h3 {
+      color: #b0bec5; }
+    .easy_title span {
+      font-size: 15px;
+      font-family: "Raleway";
+      color: #b0bec5;
+      line-height: 1.667;
+      text-align: center;
+      width: 555px; }
+  .easy_blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .easy_blocks_item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -ms-flex-preferred-size: 350px;
+          flex-basis: 350px; }
+      .easy_blocks_item h4 {
+        margin-top: 30px; }
+      .easy_blocks_item span {
+        margin-top: 10px;
+        color: #b0bec5;
+        text-align: center; }
+    .easy_blocks .item1 img {
+      content: url("../../img/main_easy/note.png"); }
+    .easy_blocks .item2 img {
+      content: url("../../img/main_easy/man.png"); }
+    .easy_blocks .item3 img {
+      content: url("../../img/main_easy/worker.png"); }
+  .easy_buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .easy_buttons .getStarted {
+      color: white;
+      text-transform: uppercase;
+      border-radius: 5px;
+      background-color: #1de9b6;
+      -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+      width: 150px;
+      height: 55px; }
+    .easy_buttons .getStarted:hover {
+      color: black; }
+
+/*# sourceMappingURL=easy_style.css.map */

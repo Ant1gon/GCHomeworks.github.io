@@ -1,0 +1,43 @@
+.services{
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  &_title{
+    text-align: center;
+    padding: 90px;
+    line-height: 1.667;
+  }
+  &_infoBlocks>div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    //width: 800px;
+    //height: 240px;
+  }
+  &_infoBlocks .title{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  .title>img{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.statistics_title_img{
+  content: url("../../img/services/statistics.png");
+}
+.inbox_title_img{
+  content: url("../../img/services/mail.png");
+}
+.team_title_img{
+  content: url("../../img/services/team.png");
+}
+.settings_title_img{
+  content: url("../../img/services/settings.png");
+}
+.feed_title_img{
+  content: url("../../img/services/rss_feed.png");
+}
