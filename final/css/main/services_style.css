@@ -1,5 +1,5 @@
 .services {
-  margin: 0 auto;
+  margin: 0 auto 100px;
   width: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,19 +18,45 @@
     -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
             box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1); }
   .services_infoBlocks .title {
+    padding: 25px 20px 25px 25px;
     text-transform: uppercase;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
-  .services .title > img {
-    width: 20px;
-    height: 20px; }
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .services_infoBlocks .content {
+    display: none;
+    padding: 0 20px 25px 25px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .services_infoBlocks > div:first-child > .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .services_infoBlocks .content_text {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    line-height: 1.667; }
+  .services .title div > img {
+    float: left;
+    margin-right: 20px; }
+  .services .title > div:first-child {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%; }
 
 .statistics_title_img {
   content: url("../../img/services/statistics.png"); }
+
+.statistics .content .content_img {
+  content: url("../../img/services/phone.png");
+  margin-right: 25px; }
 
 .inbox_title_img {
   content: url("../../img/services/mail.png"); }

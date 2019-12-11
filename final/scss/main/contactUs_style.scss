@@ -1,0 +1,61 @@
+.contactUs{
+  background: #fafafa;
+  .wrapper {
+    margin: 0 auto;
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .title {
+      text-align: center;
+      line-height: 1.667;
+      //padding: 0 20px;
+      margin: 50px 0;
+    }
+
+    .form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 100px;
+
+      input[type="text"], input[type="email"], input[type="tel"] {
+          padding-left: 20px;
+          height: 50px;
+          flex-basis: 47%;
+          border-radius: 5px;
+          margin: 0 0 20px;
+          background: none;
+          border: 1px solid black;
+      }
+
+      textarea {
+        flex-basis: 100%;
+        border-radius: 5px;
+        margin: 0 0 20px;
+        padding: 10px 20px;
+        background: none;
+        border: 1px solid black;
+        resize: none;
+      }
+
+      input[type="checkbox"]{
+        margin-right: 10px;
+      }
+
+      label{
+        margin-top: 10px;
+      }
+
+      button{
+        width: 130px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(29, 233, 182);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+        color: white;
+      }
+
+    }
+  }
+}

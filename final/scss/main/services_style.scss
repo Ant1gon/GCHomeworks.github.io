@@ -1,5 +1,5 @@
 .services{
-  margin: 0 auto;
+  margin: 0 auto 100px;
   width: 800px;
   display: flex;
   flex-direction: column;
@@ -16,18 +16,43 @@
     //height: 240px;
   }
   &_infoBlocks .title{
+    padding: 25px 20px 25px 25px;
     text-transform: uppercase;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
   }
-  .title>img{
-    width: 20px;
-    height: 20px;
+  &_infoBlocks .content{
+    display: none;
+    padding: 0 20px 25px 25px;
+    flex-wrap: wrap;
+  }
+  &_infoBlocks>div:first-child>.content{
+    display: flex;
+  }
+
+  &_infoBlocks .content_text{
+    flex-basis: 60%;
+    line-height: 1.667;
+  }
+
+  .title div>img{
+    float: left;
+    margin-right: 20px;
+  }
+
+  .title>div:first-child{
+    flex-basis: 30%;
   }
 }
 
 .statistics_title_img{
   content: url("../../img/services/statistics.png");
+}
+.statistics .content .content_img{
+  content: url("../../img/services/phone.png");
+  margin-right: 25px;
 }
 .inbox_title_img{
   content: url("../../img/services/mail.png");
@@ -41,3 +66,4 @@
 .feed_title_img{
   content: url("../../img/services/rss_feed.png");
 }
+
