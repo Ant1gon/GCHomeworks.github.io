@@ -31,6 +31,7 @@
   }
   &_blocks{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     &_item{
       display: flex;

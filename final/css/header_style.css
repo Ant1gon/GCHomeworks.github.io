@@ -57,9 +57,8 @@
     display: -ms-flexbox;
     display: flex; }
     .header_elements .info {
-      -ms-flex-preferred-size: 600px;
-          flex-basis: 600px;
-      height: 350px;
+      -ms-flex-preferred-size: 35%;
+          flex-basis: 35%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -69,7 +68,8 @@
               flex-direction: column;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      padding: 10% 0; }
       .header_elements .info span {
         font-size: 18px;
         font-family: "Raleway";

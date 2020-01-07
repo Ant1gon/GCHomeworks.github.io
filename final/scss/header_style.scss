@@ -50,11 +50,12 @@
   &_elements{
     display: flex;
     .info{
-      flex-basis: 600px;
-      height: 350px;
+      flex-basis: 35%;
+      //height: 350px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding: 10% 0;
       span{
           font-size: 18px;
           font-family: "Raleway";

@@ -1,0 +1,90 @@
+.testimonials{
+  width: 100%;
+  background: url("../../img/testimonials/backgr1.png") center/cover no-repeat;
+  //height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  .wrapper{
+    flex-basis: 100%;
+    padding: 30px 80px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  &_layer{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(143deg, rgb(0,184,212) 0%, rgb(29,233,182) 100%);
+    opacity: 0.949;
+    position: absolute;
+  }
+  &_info{
+    flex-basis: 40%;
+    color: white;
+    font-family: "Raleway";
+    z-index: 1;
+    h2{
+      padding-right: 30%;
+      font-size: 45px;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+    button{
+      width: 150px;
+      height: 55px;
+      border-radius: 10px;
+      border: none;
+      background: white;
+      color: black;
+      /*background: black;
+      color: white;*/
+      text-transform: uppercase;
+    }
+    button:hover{
+      background: black;
+      color: white;
+    }
+  }
+  &_slider{
+    z-index: 1;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    &_arrow{
+      display: flex;
+      justify-content: center;
+      .arrow_up{
+        content: url("../../img/testimonials/keyboard_arrow_up.png")
+      }
+      .arrow_down{
+        content: url("../../img/testimonials/keyboard_arrow_down.png")
+      }
+    }
+    &_characters{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      .character{
+        .text{
+          padding: 30px 35px;
+          background: white;
+          border-radius: 10px;
+          border:none;
+        }
+      }
+      .character-one{
+        img{
+          content: url("../../img/testimonials/Ellipse1.png");
+        }
+      }
+      .character-two{
+        img{
+          content: url("../../img/testimonials/Ellipse2.png");
+        }
+      }
+    }
+
+  }
+}
+
